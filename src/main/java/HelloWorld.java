@@ -1,9 +1,14 @@
+import static java.lang.System.*;
+import org.apache.commons.lang3.StringUtils;
+
 /**
  * Created by jt on 2018-11-26.
  */
 public class HelloWorld {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!!!! ");
+    public static void main(String[] args)
+    {
+        out.println("Hello World!!!! ");
+        out.println(StringUtils.capitalize("hello world"));
     }
 }
